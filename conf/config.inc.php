@@ -375,8 +375,8 @@ $use_restapi = false;
 #$header_name_extra_config="SSP-Extra-Config";
 
 # Cache directory
-#$smarty_compile_dir = "/var/cache/self-service-password/templates_c";
-#$smarty_cache_dir = "/var/cache/self-service-password/cache";
+$smarty_compile_dir = "/var/cache/self-service-password/templates_c";
+$smarty_cache_dir = "/var/cache/self-service-password/cache";
 
 # Smarty debug mode - will popup debug information on web interface
 $smarty_debug = false;
@@ -388,7 +388,7 @@ if (file_exists (__DIR__ . '/config.inc.local.php')) {
 
 # Smarty
 if (!defined("SMARTY")) {
-    define("SMARTY", "/usr/share/php/smarty3/Smarty.class.php");
+    define("SMARTY", "/usr/share/php/Smarty/Smarty.class.php");
 }
 
 # Set preset login from HTTP header $header_name_preset_login
