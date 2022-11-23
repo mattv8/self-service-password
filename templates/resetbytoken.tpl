@@ -26,7 +26,7 @@
                 <div class="col-sm-8">
                     <div class="input-group">
                         <span class="input-group-addon"><i class="fa fa-fw fa-user"></i></span>
-                        <input type="text" name="login" id="login" value="{$login}" class="form-control" placeholder="{$msg_login}" disabled />
+                        <input type="text" name="login" id="login" value="{$login}" class="form-control" placeholder="{$msg_login_placeholder}" disabled />
                     </div>
                 </div>
             </div>

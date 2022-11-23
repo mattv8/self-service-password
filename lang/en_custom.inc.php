@@ -39,6 +39,7 @@ $messages['passworderror'] = "Password was refused by the LDAP directory";
 $messages['sshkeyerror'] = "SSH Key was refused by the LDAP directory";
 $messages['title'] = "Password Reset";
 $messages['login'] = "Username2";
+$messages['login_placeholder'] = "Students: (947XXXX) Staff: (first.lastname)";
 $messages['oldpassword'] = "Old password";
 $messages['newpassword'] = "New password";
 $messages['confirmpassword'] = "Confirm";
